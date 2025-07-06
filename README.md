@@ -38,6 +38,14 @@ See the [INSTALL.md](./INSTALL.md) file for step-by-step installation instructio
 
 ---
 
+## 📦 Recommended Extensions
+
+This setup includes a list of recommended extensions in [.vscode/extensions.json](.vscode/extensions.json). When you open this workspace in VS Code, you will be prompted to install these extensions for the best full stack development experience.
+
+You can also review and install them manually from the list in [EXTENSIONS.md](./EXTENSIONS.md).
+
+---
+
 ## 📚 Resources
 
 - 🎨 Theme: [Aura Dracula Spirit (Soft)](https://marketplace.visualstudio.com/items?itemName=JoseMurilloc.aura-spirit-dracula)
@@ -51,6 +59,8 @@ See the [INSTALL.md](./INSTALL.md) file for step-by-step installation instructio
 - `settings.json` – Main configuration file with all enhancements
 - `README.md` – This documentation
 - `INSTALL.md` – Step-by-step installation guide
+- `.vscode/extensions.json` – Workspace recommended extensions
+- `EXTENSIONS.md` – Curated list of the best extensions
 
 ---
 
