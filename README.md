@@ -40,10 +40,10 @@ See the [INSTALL.md](./INSTALL.md) file for step-by-step installation instructio
 
 ## 📚 Resources
 
-- 🎨 Theme: https://marketplace.visualstudio.com/items?itemName=JoseMurilloc.aura-spirit-dracula
-- 🎨 Icon theme: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
-- ✒️ Font: https://philpl.gumroad.com/l/dank-mono
-- 🧩 Custom UI Style extension: https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style
+- 🎨 Theme: [Aura Dracula Spirit (Soft)](https://marketplace.visualstudio.com/items?itemName=JoseMurilloc.aura-spirit-dracula)
+- 🎨 Icon theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- ✒️ Font: [Dank Mono](https://philpl.gumroad.com/l/dank-mono)
+- 🧩 Custom UI Style extension: [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style)
 
 ---
 
