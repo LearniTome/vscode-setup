@@ -1,32 +1,23 @@
 {
+  // ===============================
+  // 🎨 UI & Theme Settings
+  // Visual appearance, color themes, icons, and layout
+  // ===============================
   "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-  "workbench.activityBar.location": "hidden",
-  "workbench.editor.showTabs": "single",
-  "workbench.statusBar.visible": false,
-  "workbench.startupEditor": "none",
-  "workbench.tips.enabled": false,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
-  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 8,
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "explorer.decorations.badges": false,
-  "git.decorations.enabled": false,
-  "window.zoomLevel": 1.5,
+  "workbench.activityBar.location": "hidden", // Hide activity bar for minimal UI
+  "workbench.statusBar.visible": false, // Hide status bar
+  "workbench.editor.showTabs": "single", // Show only one tab
+  "workbench.startupEditor": "none", // No welcome/startup page
+  "workbench.tips.enabled": false, // Disable VSCode tips
+  "workbench.sideBar.location": "right", // Move sidebar to right
+  "material-icon-theme.hidesExplorerArrows": true, // Hide explorer arrows
+  "window.zoomLevel": 1.5, // UI zoom
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
   "custom-ui-style.electron": {
     "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 20,
-      "y": 16
-    }
+    "trafficLightPosition": { "x": 20, "y": 16 }
   },
   "custom-ui-style.stylesheet": {
     ".notification-toast": "box-shadow: none !important",
@@ -51,9 +42,87 @@
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
   },
   "custom-ui-style.font.sansSerif": "Dank Mono",
-  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.tree.enableStickyScroll": false, // Disable sticky scroll in tree
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+  "explorer.compactFolders": false, // Show full folder tree
+  "explorer.confirmDragAndDrop": false, // No confirm on drag
+  "explorer.confirmDelete": false, // No confirm on delete
+  "explorer.decorations.badges": false, // Hide explorer badges
+  "git.decorations.enabled": false, // Hide git decorations
+
+  // ===============================
+  // 🖊️ Editor Appearance & Behavior
+  // Font, cursor, minimap, and editor visuals
+  // ===============================
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 11,
+  "editor.fontLigatures": true, // Enable font ligatures
+  "editor.lineHeight": 1.5,
+  "editor.minimap.enabled": false, // Hide minimap
+  "editor.lineNumbers": "relative", // Relative line numbers
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false, // Fixed indentation
+  "editor.showFoldingControls": "never",
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.colorDecorators": false,
+  "editor.codeLens": false,
+  "editor.links": false,
+  "editor.matchBrackets": "never",
+  "editor.parameterHints.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "block",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestions": { "other": "off" },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": { "fontStyle": "italic" }
+      }
+    ]
+  },
+
+  // ===============================
+  // 💾 File & Save Settings
+  // File handling, autosave, and formatting
+  // ===============================
+  "files.trimTrailingWhitespace": true, // Remove trailing whitespace
+  "files.insertFinalNewline": true, // Ensure newline at EOF
+  "files.autoSave": "afterDelay", // Autosave after delay
+
+  // ===============================
+  // 🧩 Extensions & Updates
+  // Extension recommendations and update behavior
+  // ===============================
+  "extensions.ignoreRecommendations": true, // Ignore extension recommendations
+  "update.mode": "none", // Disable auto-updates
+
+  // ===============================
+  // 🖥️ Terminal Settings
+  // Terminal font and appearance
+  // ===============================
+  "terminal.integrated.fontFamily": "Hack Nerd Font Propo",
+  "terminal.integrated.fontSize": 11,
+
+  // ===============================
+  // 🖌️ Custom Color & Theme Tweaks
+  // Custom color overrides for theme and UI
+  // ===============================
   "workbench.colorCustomizations": {
     "editorCursor.background": "#000000",
     "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
@@ -74,54 +143,10 @@
       "sideBar.background": "#191521"
     }
   },
-  "editor.fontFamily": "Dank Mono",
-  "terminal.integrated.fontFamily": "Hack Nerd Font Propo",
-  "terminal.integrated.fontSize": 11,
-  "editor.fontSize": 14,
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 1.5,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
-  "editor.stickyScroll.enabled": false,
-  "editor.colorDecorators": false,
-  "editor.codeLens": false,
-  "editor.links": false,
-  "editor.matchBrackets": "never",
-  "editor.parameterHints.enabled": false,
-  "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": false,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "scm.diffDecorations": "none",
-  "editor.lineNumbers": "relative",
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.showFoldingControls": "never",
-  "editor.guides.indentation": false,
-  "editor.renderWhitespace": "none",
-  "editor.renderLineHighlight": "none",
-  "editor.occurrencesHighlight": "off",
-  "editor.selectionHighlight": false,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.quickSuggestions": {
-    "other": "off"
-  },
-  "editor.suggestOnTriggerCharacters": false,
-  "editor.tabCompletion": "on",
-  "editor.snippetSuggestions": "top",
-  "emmet.triggerExpansionOnTab": true,
-  "files.autoSave": "afterDelay",
-  "update.mode": "none",
-  "extensions.ignoreRecommendations": true
+
+  // ===============================
+  // ⚡ Productivity & Shortcuts
+  // Emmet, snippets, and quick actions
+  // ===============================
+  "emmet.triggerExpansionOnTab": true
 }
