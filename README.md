@@ -30,15 +30,27 @@ Settings are organized into the following categories:
 
 ## 🚀 Getting Started
 
+See the [INSTALL.md](./INSTALL.md) file for step-by-step installation instructions.
+
 1. Copy the `settings.json` file to your VS Code user or workspace settings.
 2. Install the recommended themes and fonts (see settings for details).
 3. Restart VS Code to apply all customizations.
 
 ---
 
+## 📚 Resources
+
+- 🎨 Theme: https://marketplace.visualstudio.com/items?itemName=JoseMurilloc.aura-spirit-dracula
+- 🎨 Icon theme: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+- ✒️ Font: https://philpl.gumroad.com/l/dank-mono
+- 🧩 Custom UI Style extension: https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style
+
+---
+
 ## 📁 File List
 - `settings.json` – Main configuration file with all enhancements
 - `README.md` – This documentation
+- `INSTALL.md` – Step-by-step installation guide
 
 ---
 
